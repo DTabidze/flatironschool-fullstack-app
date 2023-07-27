@@ -30,7 +30,7 @@ def course_by_id(id):
     if course==None:
         return {}, 404
     if(request.method=="GET"):
-        return course.to_dict(rules=("-instructor.profile_pic","-instructor.tenured","-instructor.user_id"))
+        return course.to_dict(rules=("-instructor.tenured","-instructor.user_id"))
     if(request.method=="PATCH"):
         data=request.json
         try:

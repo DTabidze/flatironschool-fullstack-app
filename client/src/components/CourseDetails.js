@@ -1,6 +1,7 @@
 function CourseDetails(){
+
     return(
-        <div>
+        <div className='course-details-div'>
             <h1>
                 Course Details
             </h1>

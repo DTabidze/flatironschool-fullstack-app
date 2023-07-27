@@ -1,6 +1,5 @@
-import {useState,useEffect} from "react"
-
 function Students(){
+
     return (
         <div>
             <h1>

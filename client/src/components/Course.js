@@ -1,10 +1,14 @@
+import {Link} from "react-router-dom"
+
 function Course({course:{id,title}}){
     return(
-        <div>
-            <p>
-                Title: {title}
-            </p>
-        </div>
+        <Link to={`/courses/${id}`}>
+            <div className="course-div">
+                <p>
+                    Title: {title}
+                </p>
+            </div>
+        </Link>
     )
 }
 

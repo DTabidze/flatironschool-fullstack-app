@@ -1,5 +1,7 @@
-function Courses(){
+import Course from "./Course"
 
+function Courses(){
+    
     return(
         <div>
             <h1>
